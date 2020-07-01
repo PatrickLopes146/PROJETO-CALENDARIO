@@ -1,0 +1,126 @@
+*{
+	padding:0;
+	margin:0 auto;
+	font-family: sans-serif;
+}
+/*Fundo da pagina*/
+.primavera{
+	width: 100%;
+	margin: 0 auto;
+	background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../imagens/primavera.jpeg);
+}
+.verao{
+	width: 100%;
+	margin: 0 auto;
+	background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../imagens/verao.jpeg);
+}
+.outono{
+	width: 100%;
+	margin: 0 auto;
+	background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../imagens/outono.jpeg);
+}
+.inverno{
+	width: 100%;
+	margin: 0 auto;
+	background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(../imagens/inverno.jpeg);
+}
+
+/*Título do calendário*/
+.titulo{
+	background-color: rgba(255, 255, 255, 0.3);
+	width: 1080px;
+	text-align: center;
+	margin-top: 25px;
+	border-bottom:1px solid black;
+}
+/*Area com o nome dos meses*/
+.navegacao{
+	display: flex;
+	flex-wrap: wrap;
+	width: 885px;
+	height: 148px;
+	margin-top: 5px;
+}
+.meses{
+	background-color: rgba(255, 255, 255, 0.8);
+	font-size: 20px;
+	text-align: center;
+	border: 1px solid black;
+	width:213px;
+	height:43px;
+	border-radius: 2px;
+}
+.meses a{
+	text-decoration: none;
+}
+/*Menu de naveação*/
+.sessao_menu{
+	background-color: rgba(0, 0, 0, 0.3);
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 30px;
+	width: 1080px;
+
+}
+.menu{
+	font-size: 30px;
+	width:360px;
+	height:50px;
+	text-align: center;
+	border:1px solid black;
+	border-right:none ;
+	border-left: none;
+}
+.menu1{
+	opacity: 0.8;
+	font-size: 30px;
+	width:360px;
+	height:50px;
+	text-align: center;
+	border: 1px solid black;
+}
+/*Calendario*/
+.calendario{
+	display: flex;
+	flex-direction: column;
+	max-width: 1080px;
+	margin-bottom: 30px;
+}
+.semanas{
+	display: flex;
+	max-width: 1080px;
+}
+.semana{
+	background-color: rgba(255, 255, 255, 0.5);
+	width:152.2px;
+	height:40px;
+	font-size: 20px;
+	margin:20px 0px 0px 0px;
+	border:1px solid #000;
+	text-align: center;
+}
+.dias{
+	background-color: rgba(255, 255, 255, 0.5);
+	width:152.2px;
+	height:50px;
+	margin:0px 0px 0px 0px;
+	border:1px solid #000;
+	text-align: center;
+}
